@@ -1,0 +1,43 @@
+.form-control{
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+button.btn-register{
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 500 !important;
+    max-width: 150px;
+}
+
+table.userTable{
+    width: 100%;
+    border:1px solid;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table.userTable tr:nth-child(even) {
+    background-color: #eee;
+}
+table.userTable tr:nth-child(odd) {
+   background-color:#fff;
+}
+table.userTable th {
+    background-color: black;
+    color: white;
+}
+
+table.userTable tr th{
+    padding: 5px;
+    text-align: center;
+}
+table.userTable tr td{
+    height: 50px !important;
+}
